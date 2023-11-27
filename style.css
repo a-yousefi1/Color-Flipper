@@ -1,8 +1,7 @@
 /* change p tag font */
-p{
+body{
     font-family: 'Lilita One', sans-serif;
 }
-
 
 /* basic p tag's style */
 p{
@@ -15,10 +14,28 @@ p{
 }
 
 /* center p tag in page */
-#centered-paragraph{
+.centered-object{
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+/* change color code color */
+p span{
+    color: aqua;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Lilita One', sans-serif;
+    top: 50% !important;
+    cursor: pointer;
+}
+
+button:hover {
+
+}
