@@ -8,6 +8,8 @@ function random_color() {
 }
 
 function click_to_change() {
+    let element = document.getElementById("color_code");
     var randomColor = random_color();
     document.body.style.backgroundColor = randomColor;
+    element.textContent = randomColor
 }
