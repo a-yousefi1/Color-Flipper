@@ -13,9 +13,18 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <p class="centered-object">Background Color : <span id="color_code">#ffff</span></p>
+    <header>
+      <h1>Color flipper</h1>
+      <div><button id="reset-button" onclick="reset_color()">reset color</button></div>
+    </header>
 
-    <button onclick="click_to_change()" class="centered-object">Click to change</button>
+    <p class="centered-object">
+      Background Color : <span id="color_code">#ffff</span>
+    </p>
+
+    <button onclick="click_to_change()" class="centered-object" id="change_color_button">
+      Click to change
+    </button>
 
     <script src="./script.js"></script>
   </body>
