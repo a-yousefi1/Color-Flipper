@@ -1,3 +1,10 @@
+/* change p tag font */
+p{
+    font-family: 'Lilita One', sans-serif;
+}
+
+
+/* basic p tag's style */
 p{
     background-color: #000000;
     display: inline;
@@ -6,3 +13,12 @@ p{
     border-radius: 6px;
     padding: 8px;
 }
+
+/* center p tag in page */
+#centered-paragraph{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
